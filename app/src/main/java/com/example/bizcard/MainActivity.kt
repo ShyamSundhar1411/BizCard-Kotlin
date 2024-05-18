@@ -179,7 +179,7 @@ fun Portfolio(data: List<String>){
                 .fillMaxWidth()
                 .padding(13.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.Transparent),
-                elevation = CardDefaults.cardElevation(3.d,
+                elevation = CardDefaults.cardElevation(3.dp),
                 shape = RectangleShape) {
                     Row(
                         modifier = Modifier
